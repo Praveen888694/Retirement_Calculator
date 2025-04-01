@@ -1,0 +1,86 @@
+{
+    "all empty": {
+        "currentAge" : "",
+        "retirementAge" : "",
+        "yourAnnualIncome" : "",
+        "spouseIncome" : "",
+        "currentTotalSavings" : "",
+        "annualSavings" : "",
+        "savingsIncreaseRate" : "",
+        "errorMessage" : "Please fill out all required fields",
+        "ageErrorLabel" : "What is your current age?",
+        "retireAgeErrorLabel" : "At what age do you plan to retire?",
+        "currentIncomeErrorLabel" : "What is your current annual income?",
+        "currentSavingErrorLabel" : "What is your current retirement savings balance?",
+        "eachYearSavingErrorLabel": "How much are you currently saving each year for retirement? ",
+        "rateSavingIncreaseErrorLabel": "What is the rate of increase in your savings each year?"
+    },
+
+    "age greater than 120": {
+        "currentAge" : "130",
+        "retirementAge" : "68",
+        "yourAnnualIncome" : "$100000",
+        "spouseIncome" : "$75000",
+        "currentTotalSavings" : "$500000",
+        "annualSavings" : "10",
+        "savingsIncreaseRate" : ".25",
+        "errorMessage" : "Please fill out all required fields",
+        "invalidAgeErrorMessage" : "Age cannot be greater than 120"
+    },
+    "age greater than retirement age": {
+        "currentAge" : "60",
+        "retirementAge" : "50",
+        "yourAnnualIncome" : "$100000",
+        "spouseIncome" : "$75000",
+        "currentTotalSavings" : "$500000",
+        "annualSavings" : "10",
+        "savingsIncreaseRate" : ".25",
+        "errorMessage" : "Please fill out all required fields",
+        "invalidRetirementAgeErrorMessage" : "Planned retirement age must be greater than current age"
+    },
+    "invalid age": {
+        "currentAge" : "0",
+        "retirementAge" : "0",
+        "yourAnnualIncome" : "$100000",
+        "spouseIncome" : "$75000",
+        "currentTotalSavings" : "$500000",
+        "annualSavings" : "10",
+        "savingsIncreaseRate" : ".25",
+        "errorMessage" : "Please fill out all required fields",
+        "invalidAgeErrorMessage": "Age cannot be 0",
+        "invalidRetirementAgeErrorMessage" : "Age cannot be 0"
+    },
+    "required": {
+        "currentAge" : "40",
+        "retirementAge" : "68",
+        "yourAnnualIncome" : "$2000",
+        "spouseIncome" : "$75000",
+        "currentTotalSavings" : "$30000",
+        "annualSavings" : "5",
+        "savingsIncreaseRate" : "5",
+        "successMessage" : "In order to retire by 68, you might need to consider increasing your monthly savings by $1,045 a month."
+    },
+    "all": {
+        "currentAge" : "40",
+        "retirementAge" : "68",
+        "yourAnnualIncome" : "$2000",
+        "spouseIncome" : "$3000",
+        "currentTotalSavings" : "$30000",
+        "annualSavings" : "5",
+        "socialSecurityOption": "yes",
+        "savingsIncreaseRate" : "5",
+        "maritalStatus": "married",
+        "overrideAmount": "$800000",
+        "successMessage" : "Congratulations! You are exceeding your retirement goals. You are saving an extra $8 a month."
+    },
+    "default": {
+        "additionalIncome" : "$10000",
+        "retirementDuration" : "20",
+        "retirementAnnualIncome" : "10",
+        "preRetirementROI" : "5",
+        "postRetirementROI" : "5"
+    }
+
+
+   
+}
